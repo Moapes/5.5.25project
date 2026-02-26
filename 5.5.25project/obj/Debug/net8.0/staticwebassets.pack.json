@@ -1,0 +1,601 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Server temp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Server temp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Images\\Fade_Case.png",
+      "PackagePath": "staticwebassets\\Case_Images\\Fade_Case.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Images\\Hyper_Case.png",
+      "PackagePath": "staticwebassets\\Case_Images\\Hyper_Case.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Images\\Mystery_Case.png",
+      "PackagePath": "staticwebassets\\Case_Images\\Mystery_Case.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Images\\VIP_Case.png",
+      "PackagePath": "staticwebassets\\Case_Images\\VIP_Case.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\AWP_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\AWP_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\BF_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\BF_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\Flip_M_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\Flip_M_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\GLOCK_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\GLOCK_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\Hunts_M_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\Hunts_M_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\M4S_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\M4S_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\M9_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\M9_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\MAC_A_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\MAC_A_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\MAC_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\MAC_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\MP9_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\MP9_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\Nomad_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\Nomad_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\P20_A_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\P20_A_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\R_A_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\R_A_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\R_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\R_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\SD_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\SD_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\SO_A_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\SO_A_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\SSG_A_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\SSG_A_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\Skel_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\Skel_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\UMP_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\UMP_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Fade_Skins\\Ursus_M_Fade.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Fade_Skins\\Ursus_M_Fade.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\AK_EB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\AK_EB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\AWP_HB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\AWP_HB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\Bowie_Slter.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\Bowie_Slter.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\D_BD.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\D_BD.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\FS_HB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\FS_HB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\FS_MB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\FS_MB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\FS_VD.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\FS_VD.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\GLOCK_WR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\GLOCK_WR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\M4S_HB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\M4S_HB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\M4S_LG.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\M4S_LG.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\M9_Lore.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\M9_Lore.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\MAC_OCNC.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\MAC_OCNC.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\MP7_AC.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\MP7_AC.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\NOVA_HB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\NOVA_HB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\P250_IC.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\P250_IC.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\P250_VLNC.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\P250_VLNC.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\PP_HR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\PP_HR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\PP_HRVSTR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\PP_HRVSTR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\SG_Aerial.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\SG_Aerial.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Hyper_Skins\\SO_ORGM.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Hyper_Skins\\SO_ORGM.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\AK_BLS.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\AK_BLS.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\AWP_SM.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\AWP_SM.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\CZ_DSTRS.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\CZ_DSTRS.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\CZ_PLMR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\CZ_PLMR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\CZ_TGRS.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\CZ_TGRS.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\GLOCK_OB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\GLOCK_OB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\GLOCK_VG.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\GLOCK_VG.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\M4S_NTMR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\M4S_NTMR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\MAC_DT.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\MAC_DT.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\MAG_HEAT.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\MAG_HEAT.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\NVJ_TT.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\NVJ_TT.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\P20_OBSDN.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\P20_OBSDN.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\P20_UH.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\P20_UH.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\P250_CSTE.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\P250_CSTE.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\P250_FRNK.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\P250_FRNK.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\P250_NVRMR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\P250_NVRMR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\P90_FRT.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\P90_FRT.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\SG_OR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\SG_OR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\Mystery_Skins\\TEC_AVLNC.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\Mystery_Skins\\TEC_AVLNC.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\AK_ASMV.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\AK_ASMV.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\AK_NR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\AK_NR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\AK_PD.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\AK_PD.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\AK_RDLN.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\AK_RDLN.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\AWP_EB.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\AWP_EB.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\AWP_FV.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\AWP_FV.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\AWP_NN.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\AWP_NN.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\D_CR.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\D_CR.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\FS_AM.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\FS_AM.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\HNTSMN_S.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\HNTSMN_S.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\M4S_CF.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\M4S_CF.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\M4_ASMV.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\M4_ASMV.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\M4_BK.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\M4_BK.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\M4_DK.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\M4_DK.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\M4_DS.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\M4_DS.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\M9_BW.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\M9_BW.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\MG_TRTL.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\MG_TRTL.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\NVJ_FADE.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\NVJ_FADE.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\NVJ_MF.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\NVJ_MF.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\Case_Skins\\VIP_Skins\\TALON_BF.png",
+      "PackagePath": "staticwebassets\\Case_Skins\\VIP_Skins\\TALON_BF.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\More_Images\\Money_BG.png",
+      "PackagePath": "staticwebassets\\More_Images\\Money_BG.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\More_Images\\Q_Mark.png",
+      "PackagePath": "staticwebassets\\More_Images\\Q_Mark.png"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\מירון\\Downloads\\5.5.25project\\5.5.25project\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server temp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Server temp.props",
+      "PackagePath": "build\\Server temp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Server temp.props",
+      "PackagePath": "buildMultiTargeting\\Server temp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Server temp.props",
+      "PackagePath": "buildTransitive\\Server temp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

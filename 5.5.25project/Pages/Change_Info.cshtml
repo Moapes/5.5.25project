@@ -1,0 +1,116 @@
+@page
+@model Server_temp.Pages.Change_Info
+@{
+    ViewData["Title"] = "Change_Info";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Info</title>
+</head>
+<body>
+   
+    
+    <form method="post" class="changeInfoForm">
+        <label for="option">Select Option:</label><br>
+        <select id="option" name="option">
+            <option value="1" selected="@(Model.option == 1)">Change Email</option>
+            <option value="2" selected="@(Model.option == 2)">Change Username</option>
+            <option value="3" selected="@(Model.option == 3)">Change Password</option>
+            <option value="4" selected="@(Model.option == 4)">Change Full Name</option>
+            <option value="5" selected="@(Model.option == 5)">Change Birth Year</option>
+            <option value="6" selected="@(Model.option == 6)">Change Gender</option>
+        </select><br>
+       <button type="submit" class="changOptionButton" name="Value" value="choose">choose</button><br>
+
+        
+        @if (Model.option == 1 || Model.option == 2 || Model.option == 3 || Model.option == 4 || Model.option == 5 || Model.option == 6)
+        {
+
+            @if (Model.option == 1)
+            {
+                <label for="oldPassword">Currnet Password:</label><br>
+                <input type="password" id="oldPassword" name="oldPassword" ><br>
+                <label for="oldEmail">Old Email:</label><br>
+                <input type="email" id="oldEmail" name="oldEmail" ><br>
+                <label for="email">New Email:</label><br>
+                <input type="email" id="email" name="email" ><br>
+            }
+            @if (Model.option == 2)
+            {
+                <label for="oldPassword">Currnet Password:</label><br>
+                <input type="password" id="oldPassword" name="oldPassword"><br>
+                <label for="oldUsername">Old Username:</label><br>
+                <input type="text" id="oldUsername" name="oldUsername" ><br>
+                <label for="username">New Username:</label><br>
+                <input type="text" id="username" name="username" ><br>
+            }
+            @if (Model.option == 3)
+            {
+                <label for="oldPassword">Currnet Password:</label><br>
+                <input type="password" id="oldPassword" name="oldPassword" ><br>
+                <label for="password">New Password:</label><br>
+                <input type="password" id="password" name="password" ><br>
+            }
+            @if (Model.option == 4)
+            {
+                <label for="fullName">New Full Name:</label><br>
+                <input type="text" id="fullName" name="fullName" ><br>
+            }
+            @if (Model.option == 5)
+            {
+                
+                int currentYear = DateTime.Now.Year;
+                
+
+                <label for="birthyear">Birth Year:</label><br />
+                <select id="birthyear" name="birthyear">
+                    <option value="" disabled selected id ="birthyear">Select your birth year:</option>
+                    @for (int year = currentYear; year >= 1900; year--)
+                    {
+                        <option value="@year">@year</option>
+                    }
+                </select><br />
+            }
+            @if (Model.option == 6)
+            {
+                <div>
+                    <label>Gender:</label><br>
+
+                    <label>
+                    <input type="radio" name="gender" value="male" >
+                        Male
+                    </label><br>
+
+                    <label>
+                    <input type="radio" name="gender" value="female">
+                        Female
+                    </label><br>
+
+                    <label>
+                    <input type="radio" name="gender" value="other">
+                        Other
+                    </label><br>
+                </div>
+                
+            }
+
+
+            @if (!string.IsNullOrEmpty(Model.Message))
+            {
+                <p class="Error_MSG">@Model.Message</p>
+            }
+
+            <button type="submit" class="changeButton" value="0">Change Info</button><br>
+        }
+        
+    </form>
+
+
+</body>
+</html>

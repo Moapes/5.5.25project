@@ -1,0 +1,661 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+h1 {
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  margin-bottom: 60px;
+  text-align: center;
+  background-color: #000000c0;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right:200px;
+  transform:scale(1.3);
+  font-weight: bold;
+  color: #fffcfc70;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transform:scale(1.5);
+  border-radius: 5px;
+  transition: all 0.3s ease; 
+  border:none;
+  background-color: grey;
+}
+
+
+
+
+.logInButton , .signUpButton{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transform:scale(1.3);
+  background: linear-gradient(to right, #ff7700bd, #ff3c00c6);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 109, 0, 0.5);
+  transition: all 0.3s ease;
+}
+button:hover {
+  transform: scale(1.5);
+}
+
+td, th {
+  padding: 10px 20px;
+}
+
+.userList button , .userList input{
+  transform: scale(1); /* or 1.1 */
+  padding: 10px 20px;
+  font-size: 0.8rem;
+}
+
+.case-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+.Case_Images {
+  max-block-size: 300px;
+
+  object-fit: cover;
+  border-radius: 10px;
+
+  
+}
+.Case_Cell{
+  background-color: #737373;
+  border-radius: 10px;
+  padding: 20px;
+  size: 100%;
+  
+  margin: 20px auto;
+  transition: all 0.3s ease;
+
+
+
+  
+}
+
+.Case_Cell:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 109, 0, 0.5);
+
+}
+
+
+
+  
+/* table {
+  width: 100%;
+  align-items: center;
+ 
+} */
+
+.Case_Cell h3 {
+  text-align: left;
+  
+}
+
+
+
+input:focus {
+  transform: scale(1.4); 
+  box-shadow: inset 0 10px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 10px 5px rgba(255, 111, 0, 0.714);
+  
+  
+}
+
+a {
+  color: #FF6D00;
+  text-shadow:-5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.loginForm , .adminForm{
+  
+  margin: auto;
+  border: none;
+  
+  
+  border-radius: 15px;
+  padding: 20px;
+  width: 50%;
+  background-color: #0000007a;
+  box-shadow: 0 0 50px 30px rgba(99, 99, 99, 0.714);
+
+
+}
+
+.signIn{
+  margin: auto;
+  border: none;
+  
+  
+  border-radius: 15px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  
+  
+  background-color: #0000007a;
+  box-shadow: 0 0 50px 30px rgba(99, 99, 99, 0.714);
+}
+
+#gender , #role , #option
+{
+  background-color: #737373;
+  border-radius: 5px;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+  
+}
+
+.case_line{
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 10px;
+
+}
+
+#loginNAV , #casesNAV , #Log_OutNAV ,#ProfileNAV{
+  
+  background-color: #150f3620;
+  border-radius: 10%;
+  text-align: center;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+#VisitorCountNAV{
+  margin-left: 20px;
+  margin-right: 40px;
+  background: linear-gradient(to right, #00ff00, #00bbff);
+  text-align: center;
+  text-size-adjust: 20px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  border-radius: 10%;
+}
+
+#adminNAV{
+  margin-left: 10px;
+  background: linear-gradient(to right, #ff0000, #bb00ff);
+  border-radius: 10%;
+  text-align: center;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+
+#Money_FarmNAV{
+  margin-right: 10px;
+  background-image: url("/More_Images/Money_BG.png");
+  border-radius: 10%;
+  text-align: center;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+#loginNAV:hover , #casesNAV:hover , #Log_OutNAV:hover , #adminNAV:hover, #ProfileNAV:hover{
+  transform: scale(1.05);
+}
+#ProfileNAV{
+  margin-right: 20px;
+}
+
+
+.privacy
+{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.523);
+}
+
+.privacyTable{
+  display: flex;
+}
+
+
+.profile-img {
+  width: 40px;  /* Adjust size */
+  height: 40px; /* Same as width for a square image */
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;   /* Ensures the image covers the area without distorting */
+
+}
+#navBar
+{
+  
+  display: flex;
+  align-items: center; 
+  height: 100%; 
+}
+
+
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+#Mystery_Case_Roll_Image , #VIP_Case_Roll_Image , #Hyper_Case_Roll_Image , #Fade_Case_Roll_Image {
+  background-color: rgba(5, 5, 17, 0.068);
+  border-radius: 10px; 
+  border-width: 50px;
+  width: 230px;
+  height: 150px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4); 
+}
+
+.case_line{
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 10px;
+
+}
+.Skin_Collection {
+  border-radius: 10px; 
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4); 
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive columns */
+  gap: 10px; /* Space between images */
+}
+
+
+.Skin_Collection img{
+  border-radius: 10px; 
+  border-width: 50px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4); 
+  margin-bottom: 10px; 
+  width: 100%;
+  height: 100%;
+  padding:10px;
+}
+
+.gold_skins{
+  background-color: rgba(255, 174, 0, 0.808);
+}
+
+.red_skins{
+  background-color: rgba(236, 18, 18, 0.803);
+}
+
+.pink_skins{
+  background-color: rgba(236, 18, 210, 0.803);
+}
+
+.purple_skins{
+  background-color: rgb(116, 14, 108);
+}
+
+.blue_skins{
+  background-color: rgba(35, 41, 200, 0.788);
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transform: scale(1.3);
+  background: linear-gradient(to right, #FF6D00, #FF3D00);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 109, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.5);
+}
+
+#Log_OutNAV {
+  background-color: #FF6D00;
+}
+
+
+.skin_container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.skin_container:hover  {
+  opacity: 1; 
+  transform: Scale(1.05);
+  box-shadow: 0 0 20px rgb(255, 111, 0);
+  transition: opacity 0.3s ease;
+}
+
+.skin_container img {
+  width: 100%; /* Adjust the size as needed */
+  height: 100%; /* Adjust the size as needed */
+  border-radius: 10px; /* Optional: to give it rounded corners */
+  display: block;
+  object-fit: cover;
+}
+
+.price_overlay {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.skin-card{
+  
+  border-radius: 10px;
+  size: 100%;
+  background-color: #f88137;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sell-button{
+  background-color: #FF6D00;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+.skin-card img {
+  max-height: 120px;
+  object-fit: contain;
+  margin-bottom: auto;
+}
+
+.skin-card p,
+.skin-card .price-tag {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.skin-card button {
+  align-self: center;
+  margin-top: 10px;
+}
+
+
+.Error_MSG{
+  color: #ff0000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow:
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000;
+}
+
+
+.skins-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+}
+
+#Change-Info {
+  background: linear-gradient(135deg, #f35d0d, #f35d0d);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 200px;
+  display: block;
+  margin: auto;
+  
+}
+
+#Change-Info:hover {
+  transition: all 0.3s ease;
+  background: linear-gradient(135deg, #f35d0d, #f3840d);
+  transform: scale(1.05);
+}
+
+.Profile-Section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(135deg, #f35d0d, #f3840d);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Profile-Devider {
+  border-radius: 10px;
+  align-self: center;
+  height: 100%;
+  background-color: #ffffff00; /* fully transparent */
+  border: 2px solid #f35d0d;    /* add a 2px orange border (the rim) */
+  box-sizing: border-box;       /* ensures border doesn't exceed 100% width/height */
+}
+
+#sellAll{
+  background: linear-gradient(135deg, #0dc1f3, #e26c6c);
+}
+
+
+#Filter-By{
+  background: linear-gradient(135deg, #0000001f, #dfc5c57e);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+
+
+#Money-Farm-Button{
+  background: linear-gradient(135deg, #136812, #8be26c);
+}
+
+
+.homepage-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0f0f0;
+    background-color: #121212;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: linear-gradient(135deg, #1a1a1a, #292929);
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(255, 102, 0, 0.3);
+}
+
+.main-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #ffa500;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #bbbbbb;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #ff8533;
+}
+
+.info-section {
+    margin-top: 3rem;
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.15);
+}
+
+.info-section h2 {
+    color: #ffa500;
+    margin-bottom: 1rem;
+}
+
+.info-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+.privacy {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    background: #1e1e2f; /* dark background */
+    color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.privacy h1 {
+    text-align: center;
+    color: #f0a500; /* accent gold */
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.privacy ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+    list-style-type: disc;
+    color: #ccc;
+}
+
+.privacy ul li {
+    margin-bottom: 0.7rem;
+}
+
+.privacy p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.privacy p strong {
+    color: #f0a500;
+}
+
+.privacy p1 {
+    display: block;
+    text-align: center;
+    color: #999;
+    margin-top: 1.2rem;
+    font-style: italic;
+}
+
+.radio-row {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+
+}
+
+.radio-row label {
+  display: flex;
+  align-items: center;
+  gap: 4px; 
+  margin: 0;
+}

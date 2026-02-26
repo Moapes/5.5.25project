@@ -1,0 +1,123 @@
+@page
+@model HyperCaseModel
+@{
+    ViewData["Title"] = "FadeCase";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyperCase</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">HyperBeast Case</h1>
+        
+    <p style="text-align: center;">&#8659;</p>
+    <hr class="case_lines">
+
+    <div class="Open_Case_Section">
+        
+        <img id="Hyper_Case_Roll_Image" src="@Model.SelectedSkinImagePath" alt="1"><br>
+        @if (TempData["AlertMessage"] != null)
+        {
+            
+            <p class="Error_MSG">'@TempData["AlertMessage"]'</p>
+           
+            
+        }
+
+        <form method="post">
+            <button type="submit">Open Case(45$)</button>
+        </form>
+        
+    </div>
+    
+
+    <div id="Hyper_pics" class="Skin_Collection">
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\AK_EB.png" alt="1">
+            <div class="price_overlay">Price: $4.12</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\Hyper_Skins\AWP_HB.png" alt="2">
+            <div class="price_overlay">Price: $152.34</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Hyper_Skins\Bowie_Slter.png" alt="3">
+            <div class="price_overlay">Price: $547.67</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\D_BD.png" alt="4">
+            <div class="price_overlay">Price: $0.78</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\Hyper_Skins\FS_HB.png" alt="5">
+            <div class="price_overlay">Price: $34.82</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\Hyper_Skins\FS_MB.png" alt="6">
+            <div class="price_overlay">Price: $43.53</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\FS_VD.png" alt="7">
+            <div class="price_overlay">Price: $0.82</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\Hyper_Skins\GLOCK_WR.png" alt="8">
+            <div class="price_overlay">Price: $5.24</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\Hyper_Skins\M4S_HB.png" alt="9">
+            <div class="price_overlay">Price: $132.65</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\Hyper_Skins\M4S_LG.png" alt="10">
+            <div class="price_overlay">Price: $290.00</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Hyper_Skins\M9_Lore.png" alt="11">
+            <div class="price_overlay">Price: $890.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\MAC_OCNC.png" alt="12">
+            <div class="price_overlay">Price: $50.00</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\MP7_AC.png" alt="13">
+            <div class="price_overlay">Price: $13.42</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\Hyper_Skins\NOVA_HB.png" alt="14">
+            <div class="price_overlay">Price: $43.70</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\P250_IC.png" alt="15">
+            <div class="price_overlay">Price: $2.32</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\P250_VLNC.png" alt="16">
+            <div class="price_overlay">Price: $0.23</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\Hyper_Skins\PP_HR.png" alt="17">
+            <div class="price_overlay">Price: $12.42</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\PP_HRVSTR.png" alt="18">
+            <div class="price_overlay">Price: $8.46</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\SG_Aerial.png" alt="19">
+            <div class="price_overlay">Price: $0.12</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Hyper_Skins\SO_ORGM.png" alt="20">
+            <div class="price_overlay">Price: $0.23</div>
+        </div>
+    </div>
+
+</body>
+</html>

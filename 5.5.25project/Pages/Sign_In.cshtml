@@ -1,0 +1,96 @@
+@page
+@model Sign_InModel
+@{
+    ViewData["Title"] = "Sign in";
+}
+
+
+<h1>Create an account</h1>
+<form method="post" class="signIn">
+    
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username" required><br>
+
+
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br>
+    
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="fullname">Full name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br>
+
+    @{
+        int currentYear = DateTime.Now.Year;
+    }
+
+    <label for="birthyear">Birth Year:</label><br />
+    <select id="birthyear" name="birthyear" required>
+        <option value="" disabled selected id ="birthyear">Select your birth year:</option>
+        @for (int year = currentYear; year >= 1900; year--)
+        {
+            <option value="@year">@year</option>
+        }
+    </select><br />
+
+
+    <div>
+        <label>Gender:</label><br>
+
+        <label>
+        <input type="radio" name="gender" value="male" >
+            Male
+        </label><br>
+
+        <label>
+        <input type="radio" name="gender" value="female">
+            Female
+        </label><br>
+
+        <label>
+        <input type="radio" name="gender" value="other">
+            Other
+        </label><br>
+    </div>
+
+    
+    <p class="Error_MSG"></p>
+    
+    
+    <button type="submit" class="signUpButton" onclick="">Create Account</button><br>
+
+
+
+
+    <a href="/log_In">Got an account already? Click here to log into it</a>
+
+</form>
+
+<script>
+    document.querySelector('.signIn').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const formData = new FormData(this);
+
+        fetch(window.location.pathname, {
+            method: 'POST',
+            body: formData
+        })
+        .then(async response => {
+            try {
+                const data = await response.json();
+                if (data.success) {
+                    window.location.href = data.redirectUrl;
+                } else {
+                    document.querySelector('.Error_MSG').textContent = data.message;
+                }
+            } catch {
+                document.querySelector('.Error_MSG').textContent = "Could not parse server response.";
+            }
+        })
+        .catch(() => {
+            document.querySelector('.Error_MSG').textContent = "Unexpected error occurred.";
+        });
+    });
+</script>
+

@@ -1,0 +1,123 @@
+@page
+@model VIPCaseModel
+@{
+    ViewData["Title"] = "VIPCase";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIPCase</title>
+</head>
+<body>
+    <h1 style="text-align: center;">VIP Case</h1>
+        
+    <p style="text-align: center;">&#8659;</p>
+    <hr class="case_lines">
+
+    <div class="Open_Case_Section">
+        
+        <img id="VIP_Case_Roll_Image" src="@Model.SelectedSkinImagePath" alt="1"><br>
+        @if (TempData["AlertMessage"] != null)
+        {
+            
+            <p class="Error_MSG">'@TempData["AlertMessage"]'</p>
+           
+            
+        }
+
+        <form method="post">
+            <button type="submit">Open Case(210$)</button>
+        </form>
+    </div>
+
+
+    <div id="VIP_pics" class="Skin_Collection">
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\AK_ASMV.png" alt="1">
+            <div class="price_overlay">Price: $295.24</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\AK_NR.png" alt="2">
+            <div class="price_overlay">Price: $210.24</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\VIP_Skins\AK_PD.png" alt="3">
+            <div class="price_overlay">Price: $67.45</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\VIP_Skins\AK_RDLN.png" alt="4">
+            <div class="price_overlay">Price: $56.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\VIP_Skins\AWP_EB.png" alt="5">
+            <div class="price_overlay">Price: $23.42</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\VIP_Skins\AWP_FV.png" alt="6">
+            <div class="price_overlay">Price: $17.53</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\AWP_NN.png" alt="7">
+            <div class="price_overlay">Price: $45.90</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\D_CR.png" alt="8">
+            <div class="price_overlay">Price: $95.47</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\FS_AM.png" alt="9">
+            <div class="price_overlay">Price: $23.68</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\VIP_Skins\HNTSMN_S.png" alt="10">
+            <div class="price_overlay">Price: $170.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\M4_ASMV.png" alt="11">
+            <div class="price_overlay">Price: $430.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\M4_BK.png" alt="12">
+            <div class="price_overlay">Price: $13.24</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\VIP_Skins\M4_DS.png" alt="13">
+            <div class="price_overlay">Price: $38.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\M4S_CF.png" alt="14">
+            <div class="price_overlay">Price: $135.74</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\VIP_Skins\M9_BW.png" alt="15">
+            <div class="price_overlay">Price: $756.49</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\VIP_Skins\MG_TRTL.png" alt="16">
+            <div class="price_overlay">Price: $247.46</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\VIP_Skins\M4_DK.png" alt="16">
+            <div class="price_overlay">Price: $64.24</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\VIP_Skins\NVJ_FADE.png" alt="17">
+            <div class="price_overlay">Price: $183.00</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\VIP_Skins\NVJ_MF.png" alt="18">
+            <div class="price_overlay">Price: $479.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\VIP_Skins\TALON_BF.png" alt="19">
+            <div class="price_overlay">Price: $420.23</div>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>

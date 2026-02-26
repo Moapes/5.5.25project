@@ -1,0 +1,102 @@
+﻿@inject IHttpContextAccessor Accessor
+@inject Server_temp.Pages.UserHelper UserHelper
+@using Server_temp
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Server_temp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Server_temp.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3" id="navBar">
+            @{
+                var username = Accessor.HttpContext.Session.GetString("Username");
+                var role = Accessor.HttpContext.Session.GetString("Role");
+                var count = Application.VisitorCounter;
+            }
+
+           
+
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">UPPERcase Battle</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between align-items-center">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                             <label class="nav-link text-dark" id="VisitorCountNAV">All Time Visitor: @count</label>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" id="casesNAV" asp-area="" asp-page="/Open_cases">Cases</a>
+                        </li>
+                        @if (role == "admin")
+                            {
+                               <li><a class="nav-link text-dark" id="adminNAV" asp-area="" asp-page="/Admin">Admin</a></li>
+                            }
+                    </ul>
+                    
+
+                    @if (!string.IsNullOrEmpty(username))
+                    {
+                        <div>
+                            <a class="nav-link text-dark" id="Money_FarmNAV" asp-area="" asp-page="/Money_Farm">Click For $</a>
+                        </div>
+                        <div>
+                            <a class="nav-link text-dark" id="ProfileNAV" asp-area="" asp-page="/Profile">Profile</a>
+                        </div>
+                        <div>
+                            
+                            <a class="nav-link text-dark" id="Log_OutNAV" asp-area="" asp-page="/Log_Out">Log Out</a>
+                            @{
+                                var balance = UserHelper.getMoneyFromUser(username);
+                                <div>Your Balance: $@balance</div>
+                                
+                            }
+                            
+                            
+                        
+
+                            
+                        </div>
+                        
+                    }
+                    else
+                    {
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark align" id="loginNAV" asp-page="/Log_In">Login</a>
+                            </li>
+                        </ul>
+                    }
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2025 - UPPERcase Battle - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

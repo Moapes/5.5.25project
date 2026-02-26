@@ -1,0 +1,47 @@
+@page
+@model Server_temp.Pages.Log_InModel
+@{
+    ViewData["Title"] = "Log In";
+}
+
+<h1>Log into your account</h1>
+
+<form method="post" class="loginForm">
+    <label for="username">Username</label><br />
+    <input type="text" id="username" name="Username" required /><br />
+
+    <label for="password">Password</label><br />
+    <input type="password" id="password" name="Password" required /><br />
+
+    <p class="Error_MSG" style="color:red"></p>
+
+    <button type="submit">Log In</button><br />
+    <a href="/Sign_In">Don't have an account? Click here to create one</a>
+</form>
+
+<script>
+    document.querySelector('.loginForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const formData = new FormData(this);
+
+        fetch(window.location.pathname, {
+            method: 'POST',
+            body: formData
+        })
+        .then(async response => {
+            try {
+                const data = await response.json();
+                if (data.success) {
+                    window.location.href = data.redirectUrl;
+                } else {
+                    document.querySelector('.Error_MSG').textContent = data.message;
+                }
+            } catch {
+                document.querySelector('.Error_MSG').textContent = "Could not parse server response.";
+            }
+        })
+        .catch(() => {
+            document.querySelector('.Error_MSG').textContent = "Unexpected error occurred.";
+        });
+    });
+</script>

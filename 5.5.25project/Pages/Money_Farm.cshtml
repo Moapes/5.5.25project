@@ -1,0 +1,33 @@
+@page
+@model Server_temp.Pages.Money_Farm
+@{
+    ViewData["Title"] = "Money Farm";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style=" background-image: url('/More_Images/Money_BG.png') ">
+
+    <div class="loginForm">
+        <h2 style="color: white; text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);">Farm Details</h2>
+        <p style="color: white; text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);">Every 50 Clicks you'll get 100$ deposited into your account</p>
+        @{
+            var Clicks_UntilNextDeposit = 50 - Model.inMoney_Clicked;
+            <p style="color: rgb(89, 207, 53); text-shadow: 0 0 5px rgba(107, 221, 50, 0.8);">Clicks until next deposit: @Clicks_UntilNextDeposit</p>
+
+        }
+        <form method="post">
+            <button  id="Money-Farm-Button"  type="submit" name="getMoney">Click</button>
+        </form>
+
+    </div>
+</body>
+</html>
+

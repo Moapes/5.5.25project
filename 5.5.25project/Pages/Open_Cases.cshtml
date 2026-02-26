@@ -1,0 +1,53 @@
+@page
+@model Open_CasesModel
+@{
+    ViewData["Title"] = "Gamble";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Cases</title>
+</head>
+<body>
+
+    <table class="case-list">
+        <tr>
+            <td id="Fade_Case" ><div class="Case_Cell">
+                <h3 class="case-name">Fade Case</h3>
+                <a href="/FadeCase"><img class="Case_Images"  src="/Case_Images/Fade_Case.png"></a>
+                <h3>80$</h3>
+                
+            </div></td>
+            <td id="Hyper_Case" ><div class="Case_Cell">  
+                <h3 class="case-name">Hyper Case</h3>
+                <a href="/HyperCase"><img class="Case_Images"  src="/Case_Images/Hyper_Case.png"></a>
+                <h3>45$</h3>
+            </div></td>
+        </tr>
+
+        
+        <tr>
+            <td id="Mystery_Case" ><div class="Case_Cell">  
+                <h3 class="case-name">Mystery Case</h3>             
+                <a href="/MysteryCase"><img class="Case_Images"  src="/Case_Images/Mystery_Case.png"></a>
+                <h3>30$</h3>
+            </div></td>
+
+            <td id="VIP_Case" ><div class="Case_Cell">
+                <h3 class="case-name">VIP Case</h3>
+                <a href="/VIPCase" ><img class="Case_Images"  src="/Case_Images/VIP_Case.png"></a>
+                <h3>210$</h3>
+            </div></td>
+
+        </tr>
+
+    </table>
+
+
+
+
+</body>
+</html>

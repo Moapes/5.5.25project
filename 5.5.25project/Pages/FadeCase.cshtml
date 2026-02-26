@@ -1,0 +1,125 @@
+@page
+@model FadeCaseModel
+@{
+    ViewData["Title"] = "FadeCase";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FadeCase</title>
+</head>
+<body>
+
+    <h1 style="text-align: center;">FadeCase</h1>
+    <p style="text-align: center;">&#8659;</p>
+    <hr class="case_lines">
+
+
+    <div class="Open_Case_Section">
+        
+        <img id="Fade_Case_Roll_Image" src="@Model.SelectedSkinImagePath" alt="Selected Skin" alt="1"><br>
+        @if (TempData["AlertMessage"] != null)
+        {
+            
+            <p class="Error_MSG">'@TempData["AlertMessage"]'</p>
+           
+            
+        }
+        <form method="post">
+            <button type="submit">Open Case(80$)</button>
+        </form>
+
+    </div>
+    <div id="Fade_pics" class="Skin_Collection">
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\Fade_Skins\AWP_Fade.png" alt="1">
+            <div class="price_overlay">Price: $861.23</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\BF_Fade.png" alt="2">
+            <div class="price_overlay">Price: $3895.45</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\Hunts_M_Fade.png" alt="4">
+            <div class="price_overlay">Price: $410.12</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\Fade_Skins\R_Fade.png" alt="5">
+            <div class="price_overlay">Price: $67.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\Flip_M_Fade.png" alt="6">
+            <div class="price_overlay">Price: $478.46</div>
+        </div>
+        <div class="skin_container">
+            <img class="purple_skins" src="\Case_Skins\Fade_Skins\GLOCK_Fade.png" alt="7">
+            <div class="price_overlay">Price: $1674.45</div>
+        </div>
+        <div class="skin_container">
+            <img class="red_skins" src="\Case_Skins\Fade_Skins\M4S_Fade.png" alt="8">
+            <div class="price_overlay">Price: $480.46</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\M9_Fade.png" alt="9">
+            <div class="price_overlay">Price: $1793.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Fade_Skins\MAC_A_Fade.png" alt="10">
+            <div class="price_overlay">Price: $16.35</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Fade_Skins\MAC_Fade.png" alt="11">
+            <div class="price_overlay">Price: $45.76</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\Nomad_Fade.png" alt="12">
+            <div class="price_overlay">Price: $964.74</div>
+        </div>
+        <div class="skin_container">
+            <img class="purple_skins" src="\Case_Skins\Fade_Skins\P20_A_Fade.png" alt="13">
+            <div class="price_overlay">Price: $4.68</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\Fade_Skins\R_A_Fade.png" alt="14">
+            <div class="price_overlay">Price: $2.85</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\SD_Fade.png" alt="15">
+            <div class="price_overlay">Price: $256.57</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\Skel_Fade.png" alt="16">
+            <div class="price_overlay">Price: $1670.64</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Fade_Skins\SO_A_Fade.png" alt="17">
+            <div class="price_overlay">Price: $1.12</div>
+        </div>
+        <div class="skin_container">
+            <img class="blue_skins" src="\Case_Skins\Fade_Skins\SSG_A_Fade.png" alt="18">
+            <div class="price_overlay">Price: $3.28</div>
+        </div>
+        <div class="skin_container">
+            <img class="pink_skins" src="\Case_Skins\Fade_Skins\UMP_Fade.png" alt="19">
+            <div class="price_overlay">Price: $76.45</div>
+        </div>
+        <div class="skin_container">
+            <img class="gold_skins" src="\Case_Skins\Fade_Skins\Ursus_M_Fade.png" alt="20">
+            <div class="price_overlay">Price: $356.23</div>
+        </div>
+        <div class="skin_container">
+            <img class="purple_skins" src="\Case_Skins\Fade_Skins\MP9_Fade.png" alt="20">
+            <div class="price_overlay">Price: $6.34</div>
+        </div>
+    </div>
+
+
+
+    <hr class="case_lines">
+
+
+</body>
+</html>

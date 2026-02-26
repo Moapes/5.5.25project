@@ -1,0 +1,91 @@
+@page
+@model ProfileModel
+@{
+    ViewData["Title"] = "Profile";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+        <style>
+            .skins-grid {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+
+            .skin-card {
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                padding: 10px;
+                width: 200px;
+                text-align: center;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .skin-card img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 4px;
+            }
+
+            .skin-card h3 {
+                font-size: 1.2em;
+                margin: 10px 0 5px;
+            }
+
+            .skin-card p {
+                margin: 5px 0;
+                color: #555;
+            }
+    </style>
+</head>
+<body>
+    <div class="Profile-Devider">
+        <h1 >Welcome, @HttpContext.Session.GetString("Username")!</h1>
+        <a id="Change-Info"  href="/Change_Info" >Change Account Information</a>
+        <h1 >Your Skins:</h1>
+        <form method="post">
+            <input type="hidden" name="SkinPath" value=""/>
+            <div>
+                <button type="submit" id = "sellAll">Sell All</button>
+
+                <p>Total Skins: @Model.inSkins_In_Invertory/50</p>
+            </div>
+            
+        </form>
+    </div>
+
+    
+    
+    <div class="Profile-Section">
+
+        
+        <div class="skins-grid">
+            @foreach (var skin in Model.userSkins)
+            {
+                <div class="skin-card">
+                    <img src="@skin.ImagePath" alt="@skin.Name" />
+                    <h3>@skin.Name</h3>
+                    <p class="price-tag">Price: $@skin.Price</p>
+                    <form method="post">
+                        <input type="hidden" name="SkinPath" value="@skin.ImagePath" />
+                        <button type="sumbit" class="sell-button">Sell</button>
+                    </form>
+                    
+
+                </div>
+            }
+        </div>
+    </div>
+    
+    
+
+
+
+
+</body>
+</html>
